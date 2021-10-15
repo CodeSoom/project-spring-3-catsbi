@@ -10,6 +10,9 @@ import javax.persistence.EntityListeners;
 import javax.persistence.MappedSuperclass;
 import java.time.LocalDateTime;
 
+/**
+ * 엔티티 생성일과 수정일 정보
+ */
 @EntityListeners(AuditingEntityListener.class)
 @MappedSuperclass
 @Getter
